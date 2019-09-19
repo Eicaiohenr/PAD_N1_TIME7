@@ -19,11 +19,11 @@ class MainActivity : AppCompatActivity() {
 
         val  users = ArrayList<User>()
 
-        users.add(User("Livro", "Dom Quixote; Miguel de Servantes ; Penguim companhia "))
-        users.add(User("Livro2 ", "Ulisses; James Joyce;Penguim companhia "))
-        users.add(User("Livro3 ", "Em Busca do Tempo Perdido; Marcel Proust;Gallimard "))
-        users.add(User("Livro4 ", "Harry Potter e a Pedra Filosofal; J.K. Rowling;J.K. Rowling "))
-        users.add(User("Livro5 ", "A Culpa é das Estrelas; John Green;intríseca "))
+        users.add(User("Segunda", "Arroz, feijão, frango"))
+        users.add(User("Livro2 ", "lasanha"))
+        users.add(User("Livro3 ", " pizza de frango catupiry"))
+        users.add(User("Livro4 ", "macarrão e 'carne' moide"))
+        users.add(User("Livro5 ", "arroz e feijoada "))
 
 
         val adapter = CustomAdpter(users)

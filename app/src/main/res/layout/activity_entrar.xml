@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent" android:background="#EEA0A0">
+
+    <EditText
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/loginText"
+            android:background="#FFFFFF" app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="60dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="248dp" android:text="Email"/>
+    <EditText
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/passText"
+            android:layout_width="290dp" android:background="#FFFFFF" android:text="Senha"
+            android:layout_marginTop="12dp" app:layout_constraintTop_toBottomOf="@+id/loginText"
+            android:layout_marginStart="60dp" app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+            android:text="Já cadastrou?"
+            android:layout_width="157dp"
+            android:layout_height="26dp"
+            android:id="@+id/jaView" android:layout_marginStart="136dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="124dp" app:layout_constraintTop_toBottomOf="@+id/passText"/>
+    <Button
+            android:text="Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="386dp"
+            tools:layout_editor_absoluteX="161dp" android:id="@+id/entraView"/>
+</android.support.constraint.ConstraintLayout>

@@ -18,7 +18,7 @@
 
             <TextView
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:text="Nome do livro "
+                    android:text="Dia"
                     android:id="@+id/textViewName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
@@ -26,10 +26,10 @@
             <TextView
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:id="@+id/textViewAdress"
-                    android:text = "Livro,Autor, Editora"
+                    android:text="comida"
                     android:layout_width="match_parent"
 
-                      android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"/>
 
 
 
